@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Presentation Card</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+        }
+
+        .card .info {
+            margin-left: 20px;
+        }
+
+        .card .info h1 {
+            margin: 0;
+        }
+
+        .card .info ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img id="photo" src="your-photo-url">
+        <div class="info">
+            <h1 id="name">Your Name</h1>
+            <ul>
+                <li id="info1">Your Information 1</li>
+                <li id="info2">Your Information 2</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

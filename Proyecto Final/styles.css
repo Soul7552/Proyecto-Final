@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.links {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
+
+#nombre {
+    margin: 5px;
+    padding: 5px 5px 5px 15px;
+    color: aliceblue;
+    font-size: 40px;
+    color: rgb(255, 81, 0);
+    font-weight: 800;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+#nombre:hover {
+    color: rgb(255, 102, 0);
+}
+
+.linkshijos {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 81, 0);
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.linkshijos:hover {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: rgb(255, 102, 0);
+}
+
+/* Presentación */
+
+#presentacion {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#presentacion img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.info {
+    background-color: #252525;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 20px 20px 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* Display de modelos */
+
+#modelos {
+    display: grid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px; 
+    padding: 10px 0px 10px 0px;
+}
+
+.grid-item {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #modelos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* Contacto */
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #585858;
+}
+
+.login-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #b6b6b6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 98%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+    align-items: center;
+}
